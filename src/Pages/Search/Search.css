@@ -1,0 +1,11 @@
+.search {
+  display: flex;
+  margin: 15px 0;
+}
+
+.searchBox {
+  flex: 1;
+}
+.searchBox .MuiOutlinedInput-root {
+  border-radius: 200px;
+}

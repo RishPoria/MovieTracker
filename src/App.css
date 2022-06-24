@@ -1,0 +1,47 @@
+* {
+  scroll-behavior: smooth;
+}
+
+* ::-webkit-scrollbar {
+  width: 0.6em;
+}
+
+* ::-webkit-scrollbar-track {
+  background-color: #243642;
+}
+
+* ::-webkit-scrollbar-thumb {
+  background-color: #b1b1b1;
+  border-radius: 200px;
+}
+
+.app {
+  min-height: 100vh;
+  background-color: #243642;
+  color: white;
+  padding-top: 120px;
+  padding-bottom: 70px;
+}
+
+.pageTitle {
+  text-transform: uppercase;
+  display: flex;
+  justify-content: center;
+  font-family: "Montserrat", sans-serif;
+  font-size: 2vw;
+  padding: 4px;
+  border-radius: 50px;
+  color: white;
+}
+
+@media (max-width: 700px) {
+  .app {
+    padding-top: 90px;
+  }
+}
+
+@media (max-width: 1000px) {
+  .pageTitle {
+    font-size: 6.4vw;
+  }
+}
